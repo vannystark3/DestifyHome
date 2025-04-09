@@ -1,0 +1,99 @@
+.achievements {
+    padding: 80px 20px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: rgba(255, 255, 255, 0.02);
+    overflow: hidden;
+  }
+  
+  .achievements-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px rgba(191, 128, 255, 0.25);
+  }
+  
+  .slider-container {
+    max-width:700px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .achievement-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(191, 128, 255, 0.15);
+    padding: 10px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    text-align: center;
+    box-shadow: 0 0 20px rgba(191, 128, 255, 0.2); /* purple glow */
+    transition: transform 0.3s ease;
+  }
+  
+  .achievement-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .achievement-card img {
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    border: 2px solid rgba(191, 128, 255, 0.3);
+  }
+  
+  .achievement-card h3 {
+    font-size: 1.4rem;
+    margin-bottom: 5px;
+    color: #fff;
+  }
+  
+  .achievement-card p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 5px;
+  }
+  
+  .achievement-card span {
+    font-size: 0.9rem;
+    color: #aaa;
+  }
+  
+  .slick-slide {
+    display: flex !important;
+    justify-content: center;
+  }
+  
+  .slick-slide > div {
+    width: 100%;
+  }
+  
+  /* Slider Arrow Buttons */
+  .slick-prev,
+  .slick-next {
+    z-index: 1;
+    width: 40px;
+    height: 40px;
+    background-color: rgba(191, 128, 255, 0.15);
+    border-radius: 50%;
+    backdrop-filter: blur(6px);
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s ease;
+  }
+  
+  .slick-prev:hover,
+  .slick-next:hover {
+    background-color: rgba(191, 128, 255, 0.3);
+    box-shadow: 0 0 10px rgba(191, 128, 255, 0.6);
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: #bf80ff;
+    font-size: 20px;
+    opacity: 1;
+  }
+  

@@ -1,0 +1,93 @@
+.hero {
+    height: 90vh;
+    margin-top: 10vh;
+    width: 95vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 20px;
+    background: transparent;
+    color: white;
+    position: relative;
+    /* background-color: #ccc; */
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .app-title {
+    font-size: 4rem;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background: linear-gradient(135deg, #c471f5, #fa71cd);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 20px;
+  }
+  
+  .tagline {
+    font-size: 1.3rem;
+    color: #ccc;
+    margin-bottom: 12px;
+    text-shadow: 0 0 8px rgba(191, 128, 255, 0.15);
+  }
+  .subtagline {
+    font-size: 1.1rem;
+    color: #aaa;
+    line-height: 1.6;
+    max-width: 700px;
+    margin: 0 auto 12px auto;
+    text-shadow: 0 0 6px rgba(191, 128, 255, 0.1);
+  }
+  .cta-line {
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, #c471f5, #fa71cd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 40px;
+    text-shadow: 0 0 10px rgba(191, 128, 255, 0.15);
+  }  
+  
+  .download-btn {
+    background: rgba(127, 0, 255, 0.1);
+    padding: 20px 40px;
+    border: 1px solid rgba(191, 128, 255, 0.3);
+    border-radius: 20px;
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background: rgba(191, 128, 255, 0.2);
+    box-shadow: 0 0 10px rgba(191, 128, 255, 0.3);
+  }
+/* 
+.cover-image{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.cover-image img{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(191, 128, 255, 0.15);
+    object-fit: cover;
+} */
