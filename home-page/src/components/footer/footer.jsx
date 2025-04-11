@@ -42,15 +42,15 @@ export default function Footer() {
             {
               name: "Aditya",
               links: {
-                linkedin: "https://linkedin.com/in/adityakhurana",
-                github: "https://github.com/adityakhurana",
-                instagram: "https://instagram.com/adityakhurana",
+                linkedin: "https://www.linkedin.com/in/aditya-khurana-/",
+                github: "https://github.com/vannystark3",
+                instagram: "https://instagram.com/adityakhurana_04",
               }
             },
             {
               name: "Abhishek",
               links: {
-                linkedin: "https://linkedin.com/in/abhishek",
+                linkedin: "https://www.linkedin.com/in/abhishek-sharma-60b85a30b/",
                 github: "https://github.com/abhishek",
                 instagram: "https://instagram.com/abhishek",
               }
@@ -58,7 +58,7 @@ export default function Footer() {
             {
               name: "Shagun",
               links: {
-                linkedin: "https://linkedin.com/in/shagunrana",
+                linkedin: "https://www.linkedin.com/in/shagun-rana-0a4a22241/",
                 github: "https://github.com/shagunrana",
                 instagram: "https://instagram.com/shagunrana",
               }
@@ -66,7 +66,7 @@ export default function Footer() {
             {
               name: "Rahul",
               links: {
-                linkedin: "https://linkedin.com/in/rahulsharma",
+                linkedin: "https://www.linkedin.com/in/rahul-sharma-533262351/",
                 github: "https://github.com/rahulsharma",
                 instagram: "https://instagram.com/rahulsharma",
               }

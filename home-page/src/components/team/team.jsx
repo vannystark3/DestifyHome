@@ -15,7 +15,7 @@ const members = [
   },
   {
     name: "Abhishek Sharma",
-    role: "Research & Strategy",
+    role: "Backend developer & Product Strategist",
     image: mem2,
     link: "https://www.linkedin.com/in/abhishek-sharma-60b85a30b/"
   },

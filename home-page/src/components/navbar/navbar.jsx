@@ -1,13 +1,24 @@
 import './navbar.css';
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
 
 export default function Navbar() {
+  const [isShrunk,setShrink] = useState(false);
+
+  useEffect(()=>{
+    const handleScroll=()=>{
+      setShrink(window.scrollY>50);
+    };
+    window.addEventListener("scroll",handleScroll);
+    return ()=> window.removeEventListener("scroll",handleScroll);
+  },[]);
+
   return (
     <motion.nav
-      className="navbar"
+      className= {`navbar ${isShrunk?"shrink":""}`}
       initial={{ y: -50, opacity: 0 }}
-      animate={{ y: 0, opacity: 1 }}
+      animate={{ y: 1, opacity:1 }}
       transition={{ duration: 0.8, ease: 'easeOut' }}
     >
       <div className="appname">DESTIFY</div>
